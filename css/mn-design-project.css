@@ -1,0 +1,33 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#1{
+    background-color: #E6563B;
+}
+
+#2{
+    background-color: #EB9D3A;
+}
+
+#3{
+    background-color: #7CB06C;
+}
+
+#4{
+    background-color: #00AbA9;
+}
+
+.bigP img{
+    width: 50%;
+    height: 50%;
+}
+
+.smallP img{
+    width: 25%;
+    height: 25%;
+}
