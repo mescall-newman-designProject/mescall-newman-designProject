@@ -1,26 +1,96 @@
-.dot {
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    display: inline-block;
-    box-sizing: border-box;
+body {
+    background-color: #F0F0F0;
 }
 
-#1{
+nav {
+    background-color: #F0F0F0;
+}
+
+h1,h3{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+/*circle labels and their properties*/
+.labelOne{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.labelTwo{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 13px;
+}
+
+.labelThree{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 14px;
+}
+
+.labelFour{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+/*circle containers and their properties*/
+.dot{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.dotOne {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
     background-color: #E6563B;
 }
 
-#2{
+.dotTwo {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
     background-color: #EB9D3A;
 }
 
-#3{
+.dotThree {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
     background-color: #7CB06C;
 }
 
-#4{
+.dotFour {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
     background-color: #00AbA9;
 }
+
 
 .bigP img{
     width: 50%;
