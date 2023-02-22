@@ -21,6 +21,12 @@ h1,h3{
     justify-content: space-evenly;
 }
 
+@media(max-width: 576px) {
+.lineBreak{
+    display: none;
+}
+}
+
 .redOrange {
     /*--bs-gutter-x: 0rem;*/
     /*--bs-gutter-y: 1.5rem;*/
@@ -199,6 +205,10 @@ h1,h3{
     margin: 0 3px 3px 3px;
 }
 
+.smallP>span{
+    font-family: 'Anton', sans-serif
+}
+
 .smallP img{
     /*flex-wrap: wrap;*/
     float: left;
@@ -214,6 +224,8 @@ h1,h3{
 .para{
     margin-top: 60px;
 }
+
+
 @media (max-width: 576px) {
     #theLast{
         display: none;
@@ -228,5 +240,9 @@ h1,h3{
 
 img {
     border: #E6E6E6;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
 }
 
