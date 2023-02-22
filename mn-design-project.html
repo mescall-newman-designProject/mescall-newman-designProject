@@ -4,119 +4,157 @@
     <meta charset="UTF-8">
     <title>Design Project</title>
 
-<!--    inserting bootstrap link-->
+    <!--    inserting bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-<!--    inserting css link-->
+    <!--    inserting google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto:wght@100&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!--    inserting css link-->
     <link rel="stylesheet" href="css/mn-design-project.css">
 
 </head>
-<body>
+<container>
+    <body>
 
 
-<!--inserting nav bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
+    <!--inserting nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--inserting title of page-->
+    <div class="d-flex justify-content-center">
+        <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    </div>
+
+    <br>
+    <br>
+
+    <!--inserting location title-->
+    <div class="d-flex justify-content-center">
+        <h3>FROM PARK CITY, UTAH</h3>
+    </div>
+
+    <br>
+
+    <!--inserting color circles-->
+    <div class="container d-flex justify-content-evenly">
+        <div class="dot">
+            <div class="dotOne" id="1"><span class="labelOne">DESIGNER</span></div>
+        </div>
+        <div class="dot">
+            <div class="dotTwo" id="2"><span class="labelTwo">DEVELOP</span></div>
+        </div>
+        <div class="dot">
+            <div class="dotThree" id="3"><span class="labelThree">SUPPORT</span></div>
+        </div>
+        <div class="dot">
+            <div class="dotFour" id="4"><span class="labelFour">HOST</span></div>
+        </div>
+
+    </div>
+
+    <!--line break-->
+    <hr>
+    <br>
+
+<!--    creating titles of each section-->
+    <div class="row">
+        <span class="col-2"></span>
+        <span class="col">SELECTED WORK</span>
+        <span class="col">THE LAST</span>
+        <span class="col-1"></span>
+    </div>
+    <br>
+    <br>
+
+    <!--inserting container for big pics on left side-->
+    <div class="row">
+        <div  class="col-4">
+            <div class=" container" id="selectedWork">
+                <div class="bigP">
+<!--            far left side of page-->
+                    <img src="img/apple-ipad.jpg">
+                    <p>
+                        FEATURED PROJECT
+                        icon
+                        icon
+                        icon
+                        icon
+                    </p>
+                    <img src="img/macbook.jpg">
+                    <p>
+                        FEATURED PROJECT
+                        icon
+                        icon
+                        icon
+                        icon
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--            middle of page-->
+        <div  class="col-4">
+            <div class="container" id="selectedWorkTwo">
+                <div class="bigP">
+                    <img src="img/man.jpg">
+                    <p>
+                        FEATURED PROJECT
+                        icon
+                        icon
+                        icon
+                        icon
+                    </p>
+                    <img src="img/security.jpg">
+                    <p>
+                        FEATURED PROJECT
+                        icon
+                        icon
+                        icon
+                        icon
+                    </p>
+                </div>
+<!--            </div>-->
+        </div>
+    </div>
+
+
+        <!--inserting container for smaller pics on right side-->
+        <div class="col-4">
+            <div class="container" id="theLast">
+                <div class="smallP">
+    <!--                far right side of page-->
+
+                    <img src="img/mobile-phone.jpg"><span>THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
+                    <br>
+                    <img src="img/head.jpg"><span>NIBBLER AWESOME WEBSITE TESTING</span>
+                    <br><img src="img/ipad.jpg"><span>HOW TO GET GOOGLE TO LIKE YOU</span>
+                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Aspernatur illum praesentium voluptatem. Harum
+                                    id nemo neque non perspiciatis quis sit voluptatem
+                                    Cupiditate dicta facere necessitatibus.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</nav>
-
-<!--inserting title of page-->
-<h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-
-<!--inserting location title-->
-<h3>FROM PARK CITY, UTAH</h3>
-
-<!--inserting color circles-->
-<div class="container d-flex justify-content-evenly">
-    <div class="dot border border-primary">
-        <div class="dotOne" id="1"><span class="labelOne">DESIGNER</span></div>
-    </div>
-    <div class="dot border border-primary">
-        <div class="dotTwo" id="2"></div>
-    </div>
-    <div class="dot border border-primary">
-        <div class="dotThree" id="3"></div>
-    </div>
-    <div class="dot border border-primary">
-        <div class="dotFour" id="4"></div>
-    </div>
-
-</div>
-
-<!--line break-->
-<hr>
-
-<!--inserting container for big pics on left side-->
-<div class="container" id="selectedWork">
-    <p>SELECTED WORK</p>
-
-    <div class="bigP">
-    <img src="img/apple-ipad.jpg">
-        <p>
-            FEATURED PROJECT
-            icon
-            icon
-            icon
-            icon
-        </p>
-    </div>
-
-    <div class="bigP">
-    <img src="img/macbook.jpg">
-          <p>
-              FEATURED PROJECT
-              icon
-              icon
-              icon
-              icon
-          </p>
-    </div>
-
-    <div class="bigP">
-    <img src="img/man.jpg">
-        <p>
-            FEATURED PROJECT
-            icon
-            icon
-            icon
-            icon
-        </p>
-    </div>
-
-    <div class="bigP">
-    <img src="img/security.jpg">
-        <p>
-            FEATURED PROJECT
-            icon
-            icon
-            icon
-            icon
-        </p>
-    </div>
-    
-</div>
-
-<!--inserting container for smaller pics on right side-->
-<div class="container" id="theLast">
-    <div class="smallP">
-    <img src="img/mobile-phone.jpg"><span>THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
-    <img src="img/head.jpg"><span>NIBBLER AWESOME WEBSITE TESTING</span>
-    <img src="img/ipad.jpg"><span>HOW TO GET GOOGLE TO LIKE YOU</span>
-    </div>
-    
-</div>
 
 
 
@@ -126,5 +164,6 @@
 
 
 
-</body>
+    </body>
+</container>
 </html>

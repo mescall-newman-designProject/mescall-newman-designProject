@@ -1,3 +1,50 @@
+body {
+    background-color: #F0F0F0;
+}
+
+nav {
+    background-color: #F0F0F0;
+}
+
+h1,h3{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+/*circle labels and their properties*/
+.labelOne{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.labelTwo{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 13px;
+}
+
+.labelThree{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 14px;
+}
+
+.labelFour{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+/*circle containers and their properties*/
 .dot{
     height: 100px;
     width: 100px;
@@ -5,7 +52,7 @@
     box-sizing: content-box;
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: white;
 }
 
 .dotOne {
@@ -44,6 +91,7 @@
     background-color: #00AbA9;
 }
 
+
 .bigP img{
     width: 50%;
     height: 50%;
@@ -52,4 +100,9 @@
 .smallP img{
     width: 25%;
     height: 25%;
+}
+
+.container{
+    /*display: flex;*/
+    box-sizing: border-box;
 }
