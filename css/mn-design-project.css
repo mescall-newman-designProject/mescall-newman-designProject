@@ -7,6 +7,7 @@ nav {
 }
 
 h1,h3{
+    display: flex;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
 }
@@ -93,8 +94,10 @@ h1,h3{
 
 
 .bigP img{
-    width: 50%;
-    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
 }
 
 .imgTitle {
@@ -146,7 +149,8 @@ h1,h3{
     position: relative;
     top: 6px;
     background-color: #E6563B;
-    margin: 0 3px 3px 3px;
+    margin: 0 3px 3px 90px;
+
 }
 
 .dotTwoS {
@@ -180,13 +184,28 @@ h1,h3{
 }
 
 .smallP img{
+    /*flex-wrap: wrap;*/
+    float: left;
     width: 25%;
-    height: 25%;
+    height: 15%;
+
 }
 
 .container{
     display: flex;
 
 }
-
+.para{
+    margin-top: 60px;
+}
+@media (max-width: 576px) {
+    #theLast{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    #bigCircles{
+        display: flow;
+    }
+}
 

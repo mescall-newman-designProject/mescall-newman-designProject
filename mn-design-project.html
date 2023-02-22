@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Project</title>
 
     <!--    inserting bootstrap link-->
@@ -16,23 +17,23 @@
     <link rel="stylesheet" href="css/mn-design-project.css">
 
 </head>
-<container>
 
     <body>
 
 <!--inserting nav bar-->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" aria-current="page" href="#">codeup design</a>
+                <a class="nav-link disabled" aria-current="page" href="#">SERVICES</a>
+                <a class="nav-link disabled" href="#">WORK</a>
+                <a class="nav-link disabled" href="#">BLOG</a>
+                <a class="nav-link disabled">CONTACT</a>
 
             </div>
         </div>
@@ -56,18 +57,23 @@
     <br>
     <!--*********************************************************-->
     <!--inserting color circles-->
-    <div class="container d-flex justify-content-evenly">
+    <div class="container d-flex justify-content-evenly"id="bigCircles">
+        <div class="row-sm">
         <div class="dot">
             <div class="dotOne" id="1"><span class="labelOne">DESIGNER</span></div>
         </div>
         <div class="dot">
             <div class="dotTwo" id="2"><span class="labelTwo">DEVELOP</span></div>
         </div>
+        </div>
+
+        <div class="row-sm">
         <div class="dot">
             <div class="dotThree" id="3"><span class="labelThree">SUPPORT</span></div>
         </div>
         <div class="dot">
             <div class="dotFour" id="4"><span class="labelFour">HOST</span></div>
+        </div>
         </div>
 
     </div>
@@ -90,7 +96,7 @@
     <div class="container">
     <!--inserting container for big pics on left side-->
     <div class="row">
-        <div  class="col-4">
+        <div  class="col-lg-4">
             <div class=" container" id="selectedWork">
                 <div class="bigP">
 <!--            far left side of page-->
@@ -99,7 +105,7 @@
                     <div class="row">
 <!--                        opening container to hold items under img-->
                         <div class="container">
-                        <div class="imgTitle col-4 mt-1">
+                        <div class="imgTitle col-lg-4 mt-1">
                             <p>FEATURED PROJECT</p>
                         </div>
 <!--                            colored dot features-->
@@ -115,7 +121,7 @@
                     <div class="row">
                         <!--                        opening container to hold items under img-->
                         <div class="container">
-                            <div class="imgTitle col-4 mt-1">
+                            <div class="imgTitle col-lg-4 mt-1">
                                 <p>FEATURED PROJECT</p>
                             </div>
                             <!--                            colored dot features-->
@@ -130,7 +136,7 @@
         </div>
         <!--*********************************************************-->
         <!--            middle of page-->
-        <div  class="col-4">
+        <div  class="col-lg-4">
             <div class="container" id="selectedWorkTwo">
                 <div class="bigP">
                     <img src="img/man.jpg">
@@ -138,7 +144,7 @@
                     <div class="row">
                         <!--                        opening container to hold items under img-->
                         <div class="container">
-                            <div class="imgTitle col-4 mt-1">
+                            <div class="imgTitle col-lg-4 mt-1">
                                 <p>FEATURED PROJECT</p>
                             </div>
                             <!--                            colored dot features-->
@@ -154,7 +160,7 @@
                     <div class="row">
                         <!--                        opening container to hold items under img-->
                         <div class="container">
-                            <div class="imgTitle col-4 mt-1">
+                            <div class="imgTitle col-lg-4 mt-1">
                                 <p>FEATURED PROJECT</p>
                             </div>
                             <!--                            colored dot features-->
@@ -167,23 +173,30 @@
                 </div>
         </div>
     </div>
+
         <!--*********************************************************-->
         <!--inserting container for smaller pics on right side-->
-        <div class="col-4">
+        <div class="col-lg-4">
             <div class="container" id="theLast">
                 <div class="smallP">
     <!--                far right side of page-->
 
                     <img src="img/mobile-phone.jpg"><span>THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
                     <br>
+                    <br>
                     <img src="img/head.jpg"><span>NIBBLER AWESOME WEBSITE TESTING</span>
-                    <br><img src="img/ipad.jpg"><span>HOW TO GET GOOGLE TO LIKE YOU</span>
+                    <br>
+                    <br>
+                    <img src="img/ipad.jpg"><span>HOW TO GET GOOGLE TO LIKE YOU</span>
+                    <br>
+                    <div class="para">
                     <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing
                                     elit. Aspernatur illum praesentium voluptatem. Harum
                                     id nemo neque non perspiciatis quis sit voluptatem
                                     Cupiditate dicta facere necessitatibus.
                     </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -191,16 +204,8 @@
     </div>
 
 <!--    throwing in some br to give space at bottom-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
 <!--    BOTTOM-OF-PAGE-BOTTOM-OF-PAGE-BOTTOM-OF-PAGE-BOTTOM-OF-PAGE-->
     </body>
-</container>
 </html>
 
