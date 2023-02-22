@@ -97,12 +97,93 @@ h1,h3{
     height: 50%;
 }
 
+.imgTitle {
+    font-size: small;
+}
+
+/*small circle labels under img properties */
+.labelOneS{
+    color: black;
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+
+}
+
+.labelTwoS{
+    color: black;
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+
+}
+
+.labelThreeS{
+    color: black;
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+
+}
+
+.labelFourS{
+    color: black;
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+
+}
+
+/*small circle containers underneath img properties*/
+.dotOneS {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    background-color: #E6563B;
+    margin: 0 3px 3px 3px;
+}
+
+.dotTwoS {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    background-color: #EB9D3A;
+    margin: 0 3px 3px 3px;
+}
+
+.dotThreeS {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    background-color: #7CB06C;
+    margin: 0 3px 3px 3px;
+}
+
+.dotFourS {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    background-color: #00AbA9;
+    margin: 0 3px 3px 3px;
+}
+
 .smallP img{
     width: 25%;
     height: 25%;
 }
 
 .container{
-    /*display: flex;*/
-    box-sizing: border-box;
+    display: flex;
 }
