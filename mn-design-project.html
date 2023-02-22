@@ -75,6 +75,7 @@
             </div>
         </div>
     </div>
+    <br>
 
     <!--*********************************************************-->
     <!--line break-->
@@ -87,14 +88,12 @@
 
     <br>
     <!--*********************************************************-->
-
-    <!--*********************************************************-->
 <!--    container containing all contents below hr element-->
     <div class="container">
     <!--inserting container for big pics on left side-->
     <div class="row">
         <p class="selectedWork text-center">SELECTED WORK</p>
-        <div  class="col-lg-4">
+        <div  class="col-lg-4" id="bigPid">
             <div class=" container" id="selectedWork">
                 <div class="bigP">
 <!--            far left side of page-->
@@ -104,7 +103,7 @@
 <!--                        opening container to hold items under img-->
                         <div class="container">
                         <div class="imgTitle col-lg-4 mt-1">
-                            <p>FEATURED PROJECT</p>
+                            <p class="">FEATURED PROJECT</p>
                         </div>
 <!--                            colored dot features-->
                             <div class="dotOneS"><span class="labelOneS">D</span></div>
@@ -113,6 +112,7 @@
                             <div class="dotFourS"><span class="labelFourS">H</span></div>
                         </div>
                     </div>
+
                     <!--*********************************************************-->
                     <img class="border border-4" src="img/man.jpg">
 <!--                    row for macbook img-->
@@ -131,12 +131,14 @@
                     </div>
                 </div>
             </div>
+            <br>
         </div>
+
         <!--*********************************************************-->
         <!--            middle of page-->
         <div  class="col-lg-4">
             <div class="container" id="selectedWorkTwo">
-                <div class="bigP">
+                <div class="bigP" id="bigPidTwo">
                     <img class="border border-4" src="img/macbook.jpg">
                     <!--                    row for man img-->
                     <div class="row">
@@ -175,18 +177,25 @@
         <!--*********************************************************-->
         <!--inserting container for smaller pics on right side-->
         <div class="col-lg-4">
-            <p class="theLast text-center">THE LAST</p>
+            <p class="theLastT text-center">THE LAST</p>
             <div class="container" id="theLast">
                 <div class="smallP">
     <!--                far right side of page-->
-
-                    <img class="border border-2" src="img/mobile-phone.jpg"><span>THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
-                    <br>
-                    <br>
-                    <img class="border border-2" src="img/head.jpg"><span>NIBBLER AWESOME WEBSITE TESTING</span>
-                    <br>
-                    <br>
-                    <img class="border border-2" src="img/ipad.jpg"><span>HOW TO GET GOOGLE TO LIKE YOU</span>
+                    <article>
+                        <div class="row">
+                    <img class="border border-2" src="img/mobile-phone.jpg"><span class="col">THE ADMIN BAR AND ABSOLUTE POSITIONING</span>
+                        </div>
+<!--                    <br>-->
+<!--                    <br>-->
+                        <div class="row">
+                    <img class="border border-2" src="img/head.jpg"><span class="col">NIBBLER AWESOME WEBSITE TESTING</span>
+                        </div>
+<!--                    <br>-->
+<!--                    <br>-->
+                        <div class="row">
+                    <img class="border border-2" src="img/ipad.jpg"><span class="col">HOW TO GET GOOGLE TO LIKE YOU</span>
+                        </div>
+                    </article>
                     <br>
                     <div class="para">
                         <article><p>Last Tweet</p>Lorem ipsum dolor sit amet, consectetur adipisicing

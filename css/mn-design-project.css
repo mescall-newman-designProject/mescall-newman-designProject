@@ -114,6 +114,13 @@ h1,h3{
     background-color: #00AbA9;
 }
 
+/*#bigPid {*/
+/*    padding: 0;*/
+/*}*/
+
+/*#bigPidTwo {*/
+/*    padding: 0;*/
+/*}*/
 
 .bigP img{
     display: flex;
@@ -129,6 +136,7 @@ h1,h3{
 /*small circle labels under img properties */
 .labelOneS{
     color: black;
+    font-weight: bold;
     font-size: small;
     position: relative;
     bottom: 5px;
@@ -138,6 +146,7 @@ h1,h3{
 
 .labelTwoS{
     color: black;
+    font-weight: bold;
     font-size: small;
     position: relative;
     bottom: 5px;
@@ -147,6 +156,7 @@ h1,h3{
 
 .labelThreeS{
     color: black;
+    font-weight: bold;
     font-size: small;
     position: relative;
     bottom: 5px;
@@ -156,6 +166,7 @@ h1,h3{
 
 .labelFourS{
     color: black;
+    font-weight: bold;
     font-size: small;
     position: relative;
     bottom: 5px;
@@ -205,7 +216,7 @@ h1,h3{
     margin: 0 3px 3px 3px;
 }
 
-.smallP>span{
+.smallP>article{
     font-family: 'Anton', sans-serif
 }
 
@@ -225,12 +236,18 @@ h1,h3{
     margin-top: 60px;
 }
 
-
 @media (max-width: 576px) {
     #theLast{
         display: none;
     }
 }
+
+@media (max-width: 576px) {
+    .theLastT{
+        display: none;
+    }
+}
+
 @media (max-width: 576px) {
     #bigCircles{
        display: flow;
@@ -245,4 +262,5 @@ img {
 p {
     font-family: 'Abel', sans-serif;
 }
+
 
