@@ -6,10 +6,12 @@ nav {
     background-color: #F0F0F0;
 }
 
+/*105px was too big for logo*/
 .logo {
     width: 45px;
     height: 45px;
 }
+
 h1 {
     margin: 8px 50px 8px 60px;
 }
@@ -25,12 +27,6 @@ h1,h3{
 .lineBreak{
     display: none;
 }
-}
-
-.redOrange {
-    /*--bs-gutter-x: 0rem;*/
-    /*--bs-gutter-y: 1.5rem;*/
-    margin: 0;
 }
 
 /*circle labels and their properties*/
@@ -114,17 +110,6 @@ h1,h3{
     position: relative;
     top: 6px;
     background-color: #00AbA9;
-}
-
-/*#bigPid {*/
-/*    padding: 0;*/
-/*}*/
-
-/*#bigPidTwo {*/
-/*    padding: 0;*/
-/*}*/
-
-.theLastT {
 }
 
 .bigP img{
@@ -226,7 +211,6 @@ h1,h3{
 }
 
 .smallP img{
-    /*flex-wrap: wrap;*/
     float: left;
     width: 25%;
     height: 15%;
@@ -253,13 +237,6 @@ h1,h3{
     }
 }
 
-/*@media (max-width: 576px) {*/
-/*    #bigCircles{*/
-/*       display: flow;*/
-
-/*    }*/
-/*}*/
-
 #bigCircles {
     display: flex;
     justify-content: space-between;
@@ -278,7 +255,7 @@ p {
 .selectedWorkT {
     padding-left: 7em;
 }
-
+/*trying to close the gap on tablet*/
 #selectedWork {
     margin-bottom: 0;
 }
