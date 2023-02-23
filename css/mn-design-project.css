@@ -124,6 +124,9 @@ h1,h3{
 /*    padding: 0;*/
 /*}*/
 
+.theLastT {
+}
+
 .bigP img{
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +247,7 @@ h1,h3{
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .theLastT{
         display: none;
     }
@@ -272,4 +275,14 @@ p {
     font-family: 'Abel', sans-serif;
 }
 
+.selectedWorkT {
+    padding-left: 7em;
+}
 
+#selectedWork {
+    margin-bottom: 0;
+}
+
+.bigP {
+    margin-bottom: 0;
+}
